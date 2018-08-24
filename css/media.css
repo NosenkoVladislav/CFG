@@ -1,0 +1,144 @@
+@media (max-width: 1300px) {
+    .nav-item {
+        font-size: 15px;
+        padding: 25px 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .nav-item {
+        font-size: 15px;
+        padding: 20px 10px;
+    }
+
+    .nav-phone {
+        font-size: 14px;
+        padding: 20px 5px;
+    }
+
+    .nav-phone i{
+        display: none;
+    }
+
+    .nav-social {
+        width: 60px;
+    }
+
+    .header-logo img {
+        width: 40%;
+    }
+
+    .tab-item-name {
+        font-size: 30px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
+
+    .nav-mob {
+        display: block;
+    }
+
+    .header-logo img {
+        width: 50%;
+    }
+
+    .tab-item:nth-child(n) {
+        background: #000;
+        height: 120px;
+        position: relative;
+    }
+
+    .tab-item.active {
+        border-bottom: 10px solid #c10001;
+    }
+
+    .tab-item-name {
+        font-size: 24px;
+    }
+
+    .tab-item.active .tab-item-name {
+        margin-bottom: -10px;
+    }
+}
+
+@media (max-width: 620px) {
+    .nav-mob-item {
+        font-size: 16px;
+    }
+
+    .header-logo {
+        padding: 30px 0;
+    }
+
+    .header-logo img {
+        width: 60%;
+    }
+
+    .footer-logo {
+        width: 35%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 540px) {
+    .nav-mob-body-content {
+        flex-direction: column;
+    }
+
+    .nav-mob-item {
+        width: 100%;
+        font-size: 18px;
+    }
+
+    .nav-social-block {
+        width: 100%;
+    }
+
+    .page-tab {
+        padding: 0 15px;
+    }
+
+    .page-content {
+        padding: 20px 15px;
+    }
+
+    .tab-item:nth-child(n) {
+        height: 100px;
+    }
+
+    .tab-item-name {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 425px) {
+    .header-logo {
+        padding: 20px 0;
+    }
+
+    .header-logo img {
+        width: 80%;
+    }
+
+    .tab-item:nth-child(n) {
+        height: 70px;
+    }
+
+    .tab-item-name {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 340px) {
+    .page-tab {
+        padding: 0 5px;
+    }
+
+}
