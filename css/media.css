@@ -5,10 +5,19 @@
     }
 }
 
+@media (max-width: 1300px) {
+    .nav-phone {
+        padding: 25px 5px;
+    }
+    .nav-phone i{
+        display: none;
+    }
+}
+
 @media (max-width: 991px) {
     .nav-item {
         font-size: 15px;
-        padding: 20px 10px;
+        padding: 20px 8px;
     }
 
     .nav-phone {
@@ -16,12 +25,8 @@
         padding: 20px 5px;
     }
 
-    .nav-phone i{
-        display: none;
-    }
-
     .nav-social {
-        width: 60px;
+        width: 55px;
     }
 
     .header-logo img {

@@ -2,11 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Kickboxing</title>
+    <title>MMA</title>
     <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.min.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
-          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="plugins/bootstrap/bootstrap.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="plugins/hamburger-menu/hamburgers.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
@@ -16,7 +15,7 @@
 
 <section class="header">
     <div class="nav">
-        <a href="main-kick.html" class="nav-item">направления</a>
+        <a href="main-mma.html" class="nav-item">направления</a>
         <a href="schedule.html" class="nav-item">расписание</a>
         <a href="#" class="nav-item">галерея</a>
         <a href="#" class="nav-item">статьи</a>
@@ -38,8 +37,10 @@
         </div>
         <div class="nav-mob-body">
             <div class="nav-mob-body-content">
-                <a href="main-kick.html" class="nav-mob-item">направления</a>
+                <a href="main-mma.html" class="nav-mob-item">направления</a>
                 <a href="schedule.html" class="nav-mob-item">расписание</a>
+                <a href="#" class="nav-mob-item">галерея</a>
+                <a href="#" class="nav-mob-item">статьи</a>
                 <a href="#" class="nav-mob-item">контакты</a>
                 <div class="nav-social-block">
                     <a href="#" class="nav-mob-item"><i class="fab fa-facebook-f"></i></a>
@@ -58,11 +59,11 @@
 <section class="page-body">
     <div class="container">
         <div class="page-tab">
-            <a href="main-mma.html" class="tab-item">
+            <a href="main-mma.html" class="tab-item active">
                 <div class="tab-item-name">mma</div>
                 <div class="tab-item-mask"></div>
             </a>
-            <a href="main-kick.html" class="tab-item active">
+            <a href="main-kick.html" class="tab-item">
                 <div class="tab-item-name">kickboxing</div>
                 <div class="tab-item-mask"></div>
             </a>
@@ -86,7 +87,7 @@
                 </p>
             </div>
             <div class="fight-descr-pic">
-                <img src="assets/images/k1-img.JPG" alt="">
+                <img src="assets/images/text-pic.jpg" alt="">
             </div>
             <p class="descr-p desrc-title">В программе тренировок</p>
             <p class="descr-p">
@@ -102,12 +103,34 @@
             </p>
             <p class="descr-p desrc-title">Расписание</p>
             <p class="descr-p">
-            <div> Пн. 08:00-09:30, 19:00-20:30
-            </div>
-            <div> Ср. 08:00-09:30, 19:00-20:30
-            </div>
-            <div> Пт. 08:00-09:30, 19:00-20:30
-            </div>
+                <!--<div> Пн. 08:00-09:30, 19:00-20:30-->
+                <!--</div>-->
+                <!--<div> Ср. 08:00-09:30, 19:00-20:30-->
+                <!--</div>-->
+                <!--<div> Пт. 08:00-09:30, 19:00-20:30-->
+                <!--</div>-->
+
+            <table class="table table-sch">
+                <thead>
+                <tr>
+                    <th scope="col">Понедельник</th>
+                    <th scope="col">Среда</th>
+                    <th scope="col">Пятница</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>08:00-09:30</td>
+                    <td>08:00-09:30</td>
+                    <td>08:00-09:30</td>
+                </tr>
+                <tr>
+                    <td>19:00-20:30</td>
+                    <td>19:00-20:30</td>
+                    <td>19:00-20:30</td>
+                </tr>
+                </tbody>
+            </table>
 
             </p>
         </div>
