@@ -3,8 +3,7 @@ html {
 }
 
 body {
-    background: url("../assets/images/page-bg.jpg") no-repeat center;
-    background-position: top;
+    background: url("../assets/images/page-bg.jpg") no-repeat top;
     background-repeat-y: repeat;
 }
 
@@ -334,5 +333,9 @@ body {
     background-color: #c1c1c1;
     display: flex;
     justify-content: center;
+}
+
+.time-row.selected {
+    background-color: #f7f7f7;
 }
 

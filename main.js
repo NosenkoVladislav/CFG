@@ -215,3 +215,10 @@ function initMap() {
         });
     }).trigger('resize');
 }
+
+$('.time-row').click(function () {
+    $('.time-row').each(function () {
+        $(this).removeClass('selected')
+    })
+    $(this).addClass('selected')
+})
