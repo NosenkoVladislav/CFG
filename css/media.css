@@ -175,6 +175,23 @@
     .tab-item-name {
         font-size: 16px;
     }
+
+    .contacts {
+        padding: 30px;
+        min-height: auto;
+    }
+
+    .contacts .page-name {
+        font-size: 24px;
+    }
+
+    .с-title {
+        font-size: 20px;
+    }
+
+    .contact-item a {
+        font-size: 16px;
+    }
 }
 
 @media (max-width: 340px) {
