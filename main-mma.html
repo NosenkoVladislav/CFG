@@ -5,8 +5,10 @@
     <title>MMA</title>
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="plugins/bootstrap/bootstrap.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css"
+          integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
     <link rel="stylesheet" href="plugins/hamburger-menu/hamburgers.css">
+    <link rel="stylesheet" href="plugins/slick/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -86,30 +88,46 @@
                     тренировки 1,5 часа.
                 </p>
             </div>
-            <div class="fight-descr-pic">
-                <img src="assets/images/text-pic.jpg" alt="">
+            <div class="slider-wrap">
+                <div class="slider-control"></div>
+                <div class="fight-descr-pic slider">
+                    <div class="slider-item">
+                        <img src="assets/images/mma1.jpg" alt="">
+                    </div>
+                    <div class="slider-item">
+                        <img src="assets/images/mma2.jpg" alt="">
+                    </div>
+                    <div class="slider-item">
+                        <img src="assets/images/mma3.jpg" alt="">
+                    </div>
+                    <div class="slider-item">
+                        <img src="assets/images/mma4.jpg" alt="">
+                    </div>
+                    <div class="slider-item">
+                        <img src="assets/images/mma5.jpg" alt="">
+                    </div>
+                    <div class="slider-item">
+                        <img src="assets/images/mma6.jpg" alt="">
+                    </div>
+                    <div class="slider-item">
+                        <img src="assets/images/mma7.jpg" alt="">
+                    </div>
+                </div>
             </div>
             <p class="descr-p desrc-title">В программе тренировок</p>
-            <p class="descr-p">
-            <ul class="training-list">
-                <li class="training-item">Разминка, растяжка</li>
-                <li class="training-item">Постановка ударов</li>
-                <li class="training-item">Совершенствование ударной техники</li>
-                <li class="training-item">Работа со снарядами</li>
-                <li class="training-item">Работа над техникой в партере (элементы борьбы)</li>
-                <li class="training-item">Грамотное сочетание ударной техники с бросками и партером</li>
-                <li class="training-item">Спарринги</li>
-            </ul>
-            </p>
+            <div class="descr-p">
+                <ul class="training-list">
+                    <li class="training-item">Разминка, растяжка</li>
+                    <li class="training-item">Постановка ударов</li>
+                    <li class="training-item">Совершенствование ударной техники</li>
+                    <li class="training-item">Работа со снарядами</li>
+                    <li class="training-item">Работа над техникой в партере (элементы борьбы)</li>
+                    <li class="training-item">Грамотное сочетание ударной техники с бросками и партером</li>
+                    <li class="training-item">Спарринги</li>
+                </ul>
+            </div>
             <p class="descr-p desrc-title">Расписание</p>
             <p class="descr-p">
-                <!--<div> Пн. 08:00-09:30, 19:00-20:30-->
-                <!--</div>-->
-                <!--<div> Ср. 08:00-09:30, 19:00-20:30-->
-                <!--</div>-->
-                <!--<div> Пт. 08:00-09:30, 19:00-20:30-->
-                <!--</div>-->
-
             <table class="table table-sch">
                 <thead>
                 <tr>
@@ -159,5 +177,6 @@
 <script src="plugins/hamburger-menu/hamburger.js"></script>
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCNpO_lym2LMZ452q0_QHuYRbmfTa-DpuM&callback=initMap"
         async defer></script>
+<script src="plugins/slick/slick.min.js"></script>
 <script src="main.js"></script>
 </html>

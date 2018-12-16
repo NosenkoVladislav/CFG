@@ -270,7 +270,59 @@ body {
 .fight-descr-pic img {
     width: 100%;
     height: inherit;
-    object-fit: cover;
+    object-fit: contain;
+}
+
+.slider-wrap {
+    position: relative;
+}
+
+.slider {
+    height: 500px;
+    position: relative;
+}
+
+.slider-item {
+    height: 500px;
+    background-color: #000;
+}
+
+.slick-slide {
+    outline: none;
+}
+
+.slider-control {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.slider-arr {
+    position: absolute;
+    width: 10%;
+    height: 100%;
+    z-index: 9;
+    background: url('../assets/images/slider-arrow.png') no-repeat center #1c1c1ca1;
+    background-size: 100%;
+}
+
+.slider-arr:hover {
+    background-color: #2e2e2e;
+    cursor: pointer;
+}
+
+.slide-prev {
+    left: 0;
+}
+
+.slide-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    -moz-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    -o-transform: rotate(180deg);
+    transform: rotate(180deg);
 }
 
 /*footer*/
@@ -389,3 +441,5 @@ body {
 .contact-item.links a {
     margin-right: 10px;
 }
+
+

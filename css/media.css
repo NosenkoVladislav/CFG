@@ -157,6 +157,10 @@
     .tab-item-name {
         font-size: 20px;
     }
+
+    .slider-control {
+        visibility: hidden;
+    }
 }
 
 @media (max-width: 425px) {
@@ -191,6 +195,14 @@
 
     .contact-item a {
         font-size: 16px;
+    }
+
+    .slider {
+        height: 300px;
+    }
+
+    .slider-item {
+        height: 300px;
     }
 }
 

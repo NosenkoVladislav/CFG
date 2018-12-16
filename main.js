@@ -2,9 +2,22 @@ $('.hamburger').click(function () {
     $('.nav-mob-body').slideToggle(300)
 })
 
+$('.slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    arrows: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    appendArrows: '.slider-control',
+    prevArrow: '<div class="slide-prev slider-arr"></div>',
+    nextArrow: '<div class="slide-next slider-arr"></div>',
+    speed: 250
+});
+
 function initMap() {
-    var center = {lat: 50.428697, lng: 30.520755};
-    var myLatLng = {lat: 50.421929, lng: 30.533896};
+    var center = {lat: 50.394129, lng: 30.491257};
+    var myLatLng = {lat: 50.394129, lng: 30.491257};
     var zoom = 14.5;
     // Styles a map in night mode.
 
@@ -13,7 +26,7 @@ function initMap() {
             center = {lat: 50.428697, lng: 30.528755};
             zoom = 14;
         } else {
-            center = {lat: 50.428697, lng: 30.520755};
+            center = {lat: 50.394129, lng: 30.491257};
             zoom = 14.5;
         }
 
