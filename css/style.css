@@ -3,8 +3,7 @@ html {
 }
 
 body {
-    background: url("../assets/images/page-bg.jpg") no-repeat top;
-    background-repeat-y: repeat;
+    background: url("../assets/images/page-bg.jpg") no-repeat fixed;
 }
 
 .nav {
@@ -160,7 +159,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #fff;
+    background-color: transparent;
     padding: 0 20px;
 }
 
@@ -225,13 +224,14 @@ body {
 /*page content*/
 
 .page-body {
-    margin: 50px 0 -150px 0;
+    margin: 50px 0 50px 0;
     position: relative;
     z-index: 3;
 }
 
 .page-content {
-    background-color: #fff;
+    background-color: transparent;
+    color: #fff;
     padding: 30px 20px;
 }
 
