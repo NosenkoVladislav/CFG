@@ -4,6 +4,8 @@ html {
 
 body {
     background: url("../assets/images/page-bg.jpg") no-repeat fixed;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .nav {
