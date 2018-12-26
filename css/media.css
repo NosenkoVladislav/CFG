@@ -164,6 +164,10 @@
 }
 
 @media (max-width: 425px) {
+    .page-body {
+        margin-bottom: 25px;
+    }
+
     .header-logo {
         padding: 20px 0;
     }
